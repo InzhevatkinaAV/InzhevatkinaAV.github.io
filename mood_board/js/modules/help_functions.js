@@ -11,7 +11,7 @@ export function loadImage(src) {
 export function getUrlFromStyle(backgroundStyle) {
 	const startURL = backgroundStyle.indexOf('(');
 	const finishURL = backgroundStyle.indexOf(')');
-	return backgroundStyle.slice(startURL, finishURL - 1);
+	return backgroundStyle.slice(startURL + 2, finishURL - 1);
 }
 
 export function clear(container) {
