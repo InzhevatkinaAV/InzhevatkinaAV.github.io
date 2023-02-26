@@ -38,7 +38,7 @@ form.addEventListener('submit', function(e) {
 	newImgDraggable = document.createElement('img');
 
 	if (String(input.value) == '') {
-		newImg.setAttribute('src', '../img/default_picture.svg');
+		newImg.setAttribute('src', 'img/default_picture.svg');
 		newImgDraggable.remove();
 	} else {
 		let promise = loadImage(input.value);
@@ -49,7 +49,7 @@ form.addEventListener('submit', function(e) {
 				createNewDraggableImg(newImgDraggable, newImg);
 			},
 			error => {
-				newImg.setAttribute('src', '../img/picture_img_not_found.svg');
+				newImg.setAttribute('src', 'img/picture_img_not_found.svg');
 				newImgDraggable.remove();
 			}
 		);
@@ -77,9 +77,9 @@ btnPalette.addEventListener('click', function(event) {
 //------------------------------Изменение стиля доски--------------------------------------
 const btnSwitchStyle = document.querySelector('#btn_switch_color');
 
-const stylesForCanvas = ['url("../img/board/white_board.jpg") center center/cover no-repeat',
-		'url("../img/board/cork_board.jpg") center center/cover no-repeat',
-		'url("../img/board/graphite_board.jpg") center center/cover no-repeat'];
+const stylesForCanvas = ['url("img/board/white_board.jpg") center center/cover no-repeat',
+		'url("img/board/cork_board.jpg") center center/cover no-repeat',
+		'url("img/board/graphite_board.jpg") center center/cover no-repeat'];
 let currentStyle = 0;
 
 btnSwitchStyle.addEventListener('click', function() {
