@@ -2,13 +2,13 @@ import {loadImage, clear, moveForResizeWindow, randomInt} from "./help_functions
 
 const pinsContainer = document.querySelector('.board-pins_container');
 
-const pinWhiteBoard = "/img/pins/pin1_style3.png";
-const pinCorkBoard = ["/img/pins/pin1_style1.png", "/img/pins/pin2_style1.png", 
-		"/img/pins/pin3_style1.png", "/img/pins/pin4_style1.png",
-		"/img/pins/pin5_style1.png"];
-const pinGraphiteBoard = ["/img/pins/pin1_style2.png", "/img/pins/pin2_style2.png", 
-		"/img/pins/pin3_style2.png", "/img/pins/pin4_style2.png",
-		"/img/pins/pin5_style2.png"];
+const pinWhiteBoard = "img/pins/pin1_style3.png";
+const pinCorkBoard = ["img/pins/pin1_style1.png", "img/pins/pin2_style1.png", 
+		"img/pins/pin3_style1.png", "img/pins/pin4_style1.png",
+		"img/pins/pin5_style1.png"];
+const pinGraphiteBoard = ["img/pins/pin1_style2.png", "img/pins/pin2_style2.png", 
+		"img/pins/pin3_style2.png", "img/pins/pin4_style2.png",
+		"img/pins/pin5_style2.png"];
 
 export function createNewPin(canvas, currentStyle) {
 	const newPin = document.createElement('img');
