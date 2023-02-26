@@ -60,12 +60,12 @@ export function createNewDraggableImg(newImgDraggable, newImg) {
 }
 
 //-------------------------------Изменение стиля кнопок-----------------------------------
-const stylesForBtnPin = ['url("/img/btnStyle/white_style_pin.jpg") center center/cover no-repeat',
-		'url("/img/btnStyle/cork_style_pin.jpg") center center/cover no-repeat',
-		'url("/img/btnStyle/graphite_style_pin.jpg") center center/cover no-repeat'];
-const stylesForBtn = ['url("/img/btnStyle/cork_style.jpg") center center/cover no-repeat',
-		'url("/img/btnStyle/graphite_style.jpg") center center/cover no-repeat',
-		'url("/img/btnStyle/white_style.jpg") center center/cover no-repeat'];
+const stylesForBtnPin = ['url("img/btnStyle/white_style_pin.jpg") center center/cover no-repeat',
+		'url("img/btnStyle/cork_style_pin.jpg") center center/cover no-repeat',
+		'url("img/btnStyle/graphite_style_pin.jpg") center center/cover no-repeat'];
+const stylesForBtn = ['url("img/btnStyle/cork_style.jpg") center center/cover no-repeat',
+		'url("img/btnStyle/graphite_style.jpg") center center/cover no-repeat',
+		'url("img/btnStyle/white_style.jpg") center center/cover no-repeat'];
 
 export function changeBtnStyle(btnSwitchStyle, btnPins, currentStyle) {
 	let urlStyleBtn = getUrlFromStyle(stylesForBtn[currentStyle]);
