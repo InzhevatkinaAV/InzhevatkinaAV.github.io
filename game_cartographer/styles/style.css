@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    width: 375px;
+    padding: 10px;
+    transition: all 1s;
+    padding: 10px;
+
+    background-image: url('../images/background1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+button {
+    border-radius: 5px;
+    border: 1px solid var(--message-neutral);
+    background-color: #fff;
+    border: 1px solid #000;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+/* Стартовый экран */
+.start-screen_img {
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    height: 300px;
+    object-fit: fill;
+    border-radius: 5px;
+}
+
+.wrapper-for-my-messages {
+    display: flex;
+    justify-content: end;
+}
+
+.message {
+    max-width: 270px;
+    padding: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    transition: all 1s;
+}
+
+.examenator {
+    background-color: var(--message-neutral);
+    border: 1px solid #7695be;
+}
+
+.me {
+    background-color: var(--message-my); 
+    border: 1px solid #b4b1b1;
+}
+
+.message-examenator-start {
+    display: none;
+    opacity: 0;
+}
+
+.invisible {
+    display: none;
+}
+
+.answers_wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.answer {
+    min-width: 100px;
+    padding: 5px 10px;
+    margin: 0 2px;
+}
+
+.tickets_wrapper {
+    opacity: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ticket {
+    width: 100px;
+    height: 30px;
+    background-image: url('../images/ticket.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid #929191;
+}
+
+.ticket:hover {
+    transform: scale(1.1);
+}
+
+/* Квестовый экран */
+.question_wrapper {
+    min-height: 125px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: var(--message-neutral);
+    border: 1px solid #7695be;
+}
+
+.map {
+    width: 300px;
+    height: 300px;
+    display: grid;
+    margin: 20px auto;
+    grid-template-columns: repeat(6, 50px);
+    grid-template-rows: repeat(6, 50px);
+    background-image: url('../images/map_3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.map-item {
+    width: 100%;
+    height: 100%;
+    border: 1px dotted #000;
+}
+
+.map-item:hover {
+    background-color: rgba(243, 241, 113, 0.2);
+}
+
+.map-item_selected {
+    background-color: rgba(243, 241, 113, 0.2);
+    border: 1px solid #000;
+}
+
+.map-item_true {
+    background-color: rgba(113, 243, 122, 0.3);
+    border: 1px solid #000;
+}
+
+.map-item_false {
+    background-color: rgba(243, 113, 113, 0.3);
+    border: 1px solid #000;
+}
+
+.message-examenator-answer {
+    opacity: 0;
+    display: none;
+}
+
+/* Результат */
+.result_wrapper {
+    width: 300px;
+    min-height: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 20px auto;
+    background-color: var(--message-neutral);
+    border: 1px solid #7695be;
+}
+
+.diplom {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
