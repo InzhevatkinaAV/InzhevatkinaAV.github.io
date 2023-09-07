@@ -10,15 +10,11 @@ body {
     padding: 10px;
     transition: all 1s;
     padding: 10px;
-
-    background-image: url('../images/background1.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-
     font-family: 'Rubik', sans-serif;
     font-size: 16px;
+
+    background-image: url('../images/background.jpg');
+    background-repeat: repeat;
 }
 
 button {
@@ -31,7 +27,7 @@ button {
 }
 
 button:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 
 /* Стартовый экран */
@@ -68,7 +64,6 @@ button:hover {
 }
 
 .message-examenator-start {
-    display: none;
     opacity: 0;
 }
 
@@ -90,19 +85,24 @@ button:hover {
 
 .tickets_wrapper {
     opacity: 0;
-    display: flex;
-    justify-content: space-between;
+    display: none;
+    justify-content: center;
 }
 
 .ticket {
     width: 100px;
     height: 30px;
+    margin: 0 auto;
     background-image: url('../images/ticket.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    border: 1px solid #929191;
+    border: 1px solid #cacace;
 }
+
+.ticket-used {
+    display: none;
+} 
 
 .ticket:hover {
     transform: scale(1.1);
@@ -110,7 +110,6 @@ button:hover {
 
 /* Квестовый экран */
 .question_wrapper {
-    min-height: 125px;
     width: 100%;
     padding: 5px;
     border-radius: 5px;
@@ -159,6 +158,18 @@ button:hover {
 .message-examenator-answer {
     opacity: 0;
     display: none;
+    background-color: var(--message-neutral);
+    border: 1px solid var(--message-neutral_border);
+}
+
+.message-examenator-answer_true {
+    background-color: var(--message-positive);
+    border: 1px solid var(--message-positive_border);
+}
+
+.message-examenator-answer_false {
+    background-color: var(--message-negative);
+    border: 1px solid var(--message-negative_border);
 }
 
 /* Результат */

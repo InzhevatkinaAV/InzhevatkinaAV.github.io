@@ -2,5 +2,8 @@
     --message-neutral: #E4ECFA;
     --message-negative: #efbebe;
     --message-positive: #beefca;
+    --message-neutral_border: #8ea7d2;
+    --message-negative_border: #dc7474;
+    --message-positive_border: #63bc79;
     --message-my: #ffffff;
 }

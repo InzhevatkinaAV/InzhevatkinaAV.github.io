@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/variables.css">
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Картограф</title>
+</head>
+<body>
+    <section class="start-screen">
+        <img class="start-screen_img" src="./images/examenator.jpg"/>
+
+        <div class="message examenator">
+            <p class="text">Фыр, молодой человек! Зашли получить звание картографа-кладоискателя?</p>
+        </div>
+
+        <div class="answers_wrapper">
+            <button class="answer">Да.</button>
+            <button class="answer">Ну естественно.</button>
+            <button class="answer">А это больно?!</button>
+        </div>
+
+        <div class="wrapper-for-my-messages invisible">
+            <div class="message me">
+                <p></p>
+            </div>
+        </div>
+
+        <div class="message examenator message-examenator-start">
+            <p> Хо-хо, Вам предстоит сдать экзамен. Просто тыкайте пальцем в карту и дайте знать, что это Ваш ответ.
+            <br><br>Тяните первый билет!</p>
+        </div>
+
+        <div class="tickets_wrapper">
+            <div class="ticket"></div>
+            <div class="ticket"></div>
+            <div class="ticket"></div>
+        </div>
+    </section>
+
+    <section class="quest-screen invisible">
+        <div class="question_wrapper">
+            <p class="question"></p>
+        </div>
+
+        <div class="map">
+        </div>
+
+        <div class="answers_wrapper">
+            <button class="answer confirm">Думаю, клад тут.</button>
+        </div>
+        
+        <div class="wrapper-for-my-messages invisible">
+            <div class="message me">
+                <p>Думаю, клад тут.</p>
+            </div>
+        </div>
+
+        <div class="message examenator message-examenator-answer">
+            <p></p>
+        </div>
+
+        <div class="tickets_wrapper">
+            <div class="ticket"></div>
+            <div class="ticket"></div>
+        </div>
+
+        <div class="answers_wrapper">
+            <button class="complete answer invisible">Подойти</button>
+        </div>   
+    </section>
+
+    <section class="finish-screen invisible">
+        <div class="result_wrapper">
+            <p class="result"><p>
+        </div>
+
+        <img class="diplom" src="./images/examenator.jpg"/>
+    </section>
+
+    <script type="module" src="./scripts/script.js"></script>
+</body>
+</html>
