@@ -3,7 +3,7 @@
 ## Game Cartographer
 Страница проекта: [InzhevatkinaAV.github.io/game_cartographer](https://inzhevatkinaav.github.io/game_cartographer/game_cartographer.html). 
 
-Репозиторий с кодом: [Cartographer](https://github.com/InzhevatkinaAV/treasureHunter)
+Код проекта находится в папке game_cartographer.
 
 ## Mood Board
 Страница проекта: [InzhevatkinaAV.github.io/mood_board](https://inzhevatkinaav.github.io/mood_board/mood_board.html).
