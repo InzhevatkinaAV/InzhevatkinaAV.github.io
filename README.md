@@ -1,9 +1,11 @@
 Тут собраны мои pet-проекты с возможностью их опробовать:
 
 ## Game Cartographer
-Страница проекта: [InzhevatkinaAV.github.io/game_cartographer](https://inzhevatkinaav.github.io/game_cartographer/game_cartographer.html). 
-
+Вдохновлена игрой "Странное садоводство". Основана на механике интерактивной карты и системы загадок.
 Код проекта находится в папке game_cartographer.
+
+Страница проекта: [играть](https://inzhevatkinaav.github.io/game_cartographer/game_cartographer.html)
+Видео про игру: [смотреть](https://youtu.be/YTJYaG0KRbU)
 
 ## Mood Board
 Страница проекта: [InzhevatkinaAV.github.io/mood_board](https://inzhevatkinaav.github.io/mood_board/mood_board.html).
