@@ -5,6 +5,7 @@
 Код проекта находится в папке game_cartographer.
 
 Страница проекта: [играть](https://inzhevatkinaav.github.io/game_cartographer/game_cartographer.html)
+
 Видео про игру: [смотреть](https://youtu.be/YTJYaG0KRbU)
 
 ## Mood Board
